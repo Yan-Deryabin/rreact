@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %title Rreact
+    = csrf_meta_tags
+    = csp_meta_tag
+  %body
+    = yield
+    -# Javascript
+    = javascript_include_tag 'application', defer: true
+    = javascript_pack_tag 'application', defer: true
+    = stylesheet_pack_tag 'application', defer: true
