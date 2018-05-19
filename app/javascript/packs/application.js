@@ -7,6 +7,12 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 import '../../assets/stylesheets/application.css'
-import './hello_react.js'
-import './tutorial.js'
-console.log('Hello World from Webpacker')
+// import './tutorial.jsx'
+// import './toggle.jsx'
+// import './login_control.jsx'
+// import './warning_banner.jsx'
+// import './lists_and_keys.jsx'
+// import './forms.jsx'
+// import './lifting_state_up.jsx'
+// import './composition_vs_inheritance.jsx'
+import './thinking_in_react.jsx'
