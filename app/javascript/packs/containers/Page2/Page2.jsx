@@ -4,7 +4,9 @@ class Page2 extends Component {
   render() {
     return (
       <div>
-        Page2
+        <h1>
+          Page2
+        </h1>
       </div>
     );
   }

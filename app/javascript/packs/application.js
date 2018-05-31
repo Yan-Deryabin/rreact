@@ -1,6 +1,6 @@
 /* eslint no-console:0 */
 
-import '../../assets/stylesheets/application.css'
+// import '../../assets/stylesheets/application.css'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';

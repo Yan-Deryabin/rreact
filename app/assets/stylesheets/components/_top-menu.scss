@@ -1,0 +1,23 @@
+.top-menu {
+  background-color: $color-green-transparent;
+
+  &-item {
+    display: inline-block;
+    width: 20%;
+    max-width: 300px;
+    min-width: 50px;
+
+    a {
+      display: block;
+      color: $color-yellow-light;
+      text-align: center;
+      padding: 10px 0;
+
+      &:hover {
+        background-color: $color-green-light;
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
+  }
+}
